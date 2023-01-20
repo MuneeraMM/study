@@ -3,4 +3,5 @@ from .import views
 urlpatterns = [
 
     path('', views.regi,name="register"),
+    path('login',views.ogin,name='ogin'),
 ]
